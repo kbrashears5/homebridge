@@ -1,0 +1,26 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Nest",
+      "username": "AA:22:3D:E3:CE:30",
+      "port": 41682,
+      "pin": "927-73-875"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - Nest",
+    "ports": {
+      "start": 52400,
+      "end": 52450,
+      "comment": ""
+    },
+    "platforms": [
+      {
+        "platform" : "Nest",
+        "googleAuth": {
+          "issueToken" : "",
+          "cookies" : "",
+          "apiKey": ""
+        }
+      }
+    ]
+  }
+  

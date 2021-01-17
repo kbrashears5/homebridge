@@ -1,0 +1,95 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Wyze",
+      "username": "AA:22:3D:C1:CE:30",
+      "port": 41684,
+      "pin": "927-73-877"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - Wyze",
+    "ports": {
+      "start": 52600,
+      "end": 52650,
+      "comment": ""
+    },
+    "platforms": [
+      {
+        "platform": "Camera-ffmpeg",
+        "cameras": [
+          {
+            "name": "Living Room",
+            "manufacturer": "Wyze",
+            "model": "V2",
+            "serialNumber": "ip1",
+            "videoConfig": {
+              "source": "-re -i rtsp://admin:admin@ip1:554/live",
+              "stillImage": "-i rtsp://admin:admin@ip1:554/live -vframes 1 -r 1",
+              "vcodec": "copy",
+              "debug": false
+            }
+          },
+          {
+            "name": "Unfinished Basement",
+            "manufacturer": "Wyze",
+            "model": "V2",
+            "serialNumber": "ip2",
+            "videoConfig": {
+              "source": "-re -i rtsp://admin:admin@ip2:554/live",
+              "stillImage": "-i rtsp://admin:admin@ip2:554/live -vframes 1 -r 1",
+              "vcodec": "copy",
+              "debug": false
+            }
+          },
+          {
+            "name": "Office",
+            "manufacturer": "Wyze",
+            "model": "V2",
+            "serialNumber": "ip3",
+            "videoConfig": {
+              "source": "-re -i rtsp://admin:admin@ip3:554/live",
+              "stillImage": "-i rtsp://admin:admin@ip3:554/live -vframes 1 -r 1",
+              "vcodec": "copy",
+              "debug": false
+            }
+          },
+          {
+            "name": "Laundry Room",
+            "manufacturer": "Wyze",
+            "model": "V2",
+            "serialNumber": "ip4",
+            "videoConfig": {
+              "source": "-re -i rtsp://admin:admin@ip4:554/live",
+              "stillImage": "-i rtsp://admin:admin@ip4:554/live -vframes 1 -r 1",
+              "vcodec": "copy",
+              "debug": false
+            }
+          },
+          {
+            "name": "Back Porch",
+            "manufacturer": "Wyze",
+            "model": "V2",
+            "serialNumber": "ip5",
+            "videoConfig": {
+              "source": "-re -i rtsp://admin:admin@ip5:554/live",
+              "stillImage": "-i rtsp://admin:admin@ip5:554/live -vframes 1 -r 1",
+              "vcodec": "copy",
+              "debug": false
+            }
+          },
+          {
+            "name": "Garage",
+            "manufacturer": "Wyze",
+            "model": "V2",
+            "serialNumber": "ip6",
+            "videoConfig": {
+              "source": "-re -i rtsp://admin:admin@ip6:554/live",
+              "stillImage": "-i rtsp://admin:admin@ip6:554/live -vframes 1 -r 1",
+              "vcodec": "copy",
+              "debug": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - MyQ",
+      "username": "AA:22:3D:4C:CE:30",
+      "port": 41681,
+      "pin": "927-73-894"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - MyQ",
+    "ports": {
+      "start": 52300,
+      "end": 52350,
+      "comment": ""
+    },
+    "platforms": [
+      {
+        "platform": "myQ",
+        "name": "Chamberlain",
+        "email": "",
+        "password": "",
+        "verbose": false
+      }
+    ]
+  }
+  

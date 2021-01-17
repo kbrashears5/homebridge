@@ -1,0 +1,23 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Schedule",
+      "username": "A4:2A:D3:46:EA:03",
+      "port": 41685,
+      "pin": "927-73-845"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - Schedule",
+    "ports": {
+      "start": 52700,
+      "end": 52750,
+      "comment": ""
+    },
+    "accessories": [
+      {
+        "accessory": "Schedule",
+        "name": "Hourly",
+        "cron": "0 0 * * * *"
+      }
+    ]
+  }
+  

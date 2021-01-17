@@ -1,0 +1,30 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Tuya",
+      "username": "AA:23:3D:E3:CE:30",
+      "port": 41683,
+      "pin": "927-73-876"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - Tuya",
+    "ports": {
+      "start": 52500,
+      "end": 52550,
+      "comment": ""
+    },
+    "platforms": [
+      {
+        "platform": "TuyaWebPlatform",
+        "name": "SmartLife",
+        "options": 
+          {
+            "username": "",
+            "password": "",
+            "countryCode": "1",
+            "platform": "smart_life",
+            "pollingInterval": 900
+          }
+      }
+    ]
+  }
+  

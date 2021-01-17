@@ -1,0 +1,23 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Ring",
+      "username": "AA:22:3D:E3:CE:2A",
+      "port": 41680,
+      "pin": "927-73-873"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - Ring",
+    "ports": {
+      "start": 52200,
+      "end": 52250,
+      "comment": ""
+    },
+    "platforms": [
+      {
+        "platform": "Ring",
+        "refreshToken": "",
+        "debug": false
+      }
+    ]
+  }
+  

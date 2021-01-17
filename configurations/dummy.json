@@ -1,0 +1,26 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Dummy",
+      "username": "AC:2C:31:4A:EE:31",
+      "port": 41686,
+      "pin": "927-73-846"
+    },
+    
+    "description": "Kevin's Homebridge on a Raspberry PI - Dummy",
+    "ports": {
+      "start": 52800,
+      "end": 52850,
+      "comment": ""
+    },
+    "accessories": [
+      {
+        "accessory": "DummySwitch",
+        "name": "Home"
+      },
+      {
+        "accessory": "DummySwitch",
+        "name": "Away"
+      }
+    ]
+  }
+  

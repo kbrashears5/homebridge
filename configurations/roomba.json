@@ -1,0 +1,30 @@
+{
+    "bridge": {
+      "name": "Kevin's Homebridge - Roomba",
+      "username": "BB:11:D3:3E:EC:A2",
+      "port": 41690,
+      "pin": "927-73-901"
+    },
+    "description": "Kevin's Homebridge on a Raspberry PI - Roomba",
+    "ports": {
+      "start": 52900,
+      "end": 52950,
+      "comment": ""
+    },
+    "accessories": [
+      {
+        "accessory": "Roomba2",
+        "name": "Roomba",
+        "model": "960",
+        "blid": "",
+        "robotpwd": "",
+        "ipaddress": "",
+        "autoRefreshEnabled": true,
+        "keepAliveEnabled": true,
+        "docContactSensor": true,
+        "runningContactSensor": true,
+        "cacheTTL": 30
+      }
+    ]
+  }
+  
