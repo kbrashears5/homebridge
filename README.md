@@ -42,6 +42,32 @@ sudo systemctl enable homebridge-{name}
 sudo systemctl start homebridge-{name}
 ```
 
+## Cron Reboot
+```bash
+sudo nano /home/pi/reboot.sh
+```
+with the following contents:
+```bash
+reboot
+```
+then run 
+```bash
+sudo chmod -R 0777 /home/pi/reboot.sh
+```
+then add it to cron with
+```bash
+crontab -e
+```
+and add line
+```bash
+# 4am every Sunday
+0 4 * * 0  /home/pi/reboot.sh
+```
+and then verify changes with
+```bash
+crontab -l
+```
+
 ## Commands
 Restarting service:
 ```bash
