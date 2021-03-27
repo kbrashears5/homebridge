@@ -1,0 +1,23 @@
+{
+  "bridge": {
+    "name": "Kevin's Homebridge - bHyve",
+    "username": "CA:C2:4A:CA:FF:13",
+    "port": 41687,
+    "pin": "927-73-902"
+  },
+  
+  "description": "Kevin's Homebridge on a Raspberry PI - bHyve",
+  "ports": {
+    "start": 53000,
+    "end": 53050,
+    "comment": ""
+  },
+  "platforms": [
+    {
+      "platform": "orbit",
+      "name": "orbit",
+      "email": "",
+      "password": ""
+    }
+  ]
+}

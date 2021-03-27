@@ -34,9 +34,16 @@ KillMode=process
 WantedBy=multi-user.target
 ```
 
+Create the service files:
+```bash
+sudo mkdir /home/pi/.homebridge-{name}
+sudo chmod -R 0777 /home/pi/.homebridge-{name}
+sudo nano /home/pi/.homebridge-{name}/config.json
+```
+with the correct config.json contents based on the plugin
+
 Then run these commands:
 ```bash
-sudo chmod -R 0777 /home/pi/.homebridge-{name}
 sudo systemctl daemon-reload
 sudo systemctl enable homebridge-{name}
 sudo systemctl start homebridge-{name}
