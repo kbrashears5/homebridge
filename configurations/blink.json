@@ -1,0 +1,24 @@
+{
+  "bridge": {
+    "name": "Kevin's Homebridge - Blink",
+    "username": "D4:D1:23:AC:1F:F3",
+    "port": 41688,
+    "pin": "927-73-903"
+  },
+  
+  "description": "Kevin's Homebridge on a Raspberry PI - Blink",
+  "ports": {
+    "start": 53100,
+    "end": 53150,
+    "comment": ""
+  },
+  "platforms": [
+    {
+      "platform": "Blink",
+      "name": "Blink",
+      "username": "",
+      "password": "",
+      "pin": ""
+    }
+  ]
+}
